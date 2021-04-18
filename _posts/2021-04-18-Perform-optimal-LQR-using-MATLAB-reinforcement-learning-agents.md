@@ -14,7 +14,7 @@ comments: true
 
 MATLAB help document: 
 
-['link']: (https://ww2.mathworks.cn/help/reinforcement-learning/ug/custom-agents.html)
+[`link`](https://ww2.mathworks.cn/help/reinforcement-learning/ug/custom-agents.html)
 
 
 ## Problem Formulation 
