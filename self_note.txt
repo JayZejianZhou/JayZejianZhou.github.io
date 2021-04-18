@@ -1,0 +1,2 @@
+cd D:\code\JayZejianZhou.github.io
+jekyll server
