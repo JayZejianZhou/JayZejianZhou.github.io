@@ -20,17 +20,23 @@ MATLAB help document:
 ## Problem Formulation 
 
 Given a LQR optimal control problem formulated in the following discrete form:
+
 $$
 x_{t+1}=Ax_t+Bu_t
 $$
+
 And a LQR evaluation function:
+
 $$
 J ( x_t, u_t) =\sum^\infty _{t=0} (x'_t Q x'_t + u'_t R u_t)
 $$
+
 The feedback control law is:
+
 $$
 u_t = -K x_t
 $$
+
 We want the optimal control gain such that the evaluation function is minimized. 
 
 ## Implementation 
@@ -39,16 +45,16 @@ We want the optimal control gain such that the evaluation function is minimized.
 
 1. Create a template from the file "LQRCustomAgent.m"
 
-   ```matlab
-   addpath(fullfile(matlabroot,'examples','rl','main')); % add the template path
-   edit LQRCustomAgent.m;	% get the template file
-   ```
+```matlab
+addpath(fullfile(matlabroot,'examples','rl','main')); % add the template path
+edit LQRCustomAgent.m;	% get the template file
+```
    
 2. Save the template file to the work directory. Move remove the example files for safety.
 
-   ```matlab
-   rmpath(fullfile(matlabroot,'examples','rl','main')); 
-   ```
+```matlab
+rmpath(fullfile(matlabroot,'examples','rl','main')); 
+```
 
 ### Define a customized reinforcement learning environment 
 
