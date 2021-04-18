@@ -14,9 +14,7 @@ comments: true
 
 MATLAB help document: 
 
-[`link`](https://ww2.mathworks.cn/help/reinforcement-learning/ug/custom-agents.html)
-
-[`minimal-mistakes-jekyll`](https://rubygems.org/gems/minimal-mistakes-jekyll)
+[`link`](https://ww2.mathworks.cn/help/reinforcement-learning/ug/custom-agents.html)  
 
 
 ## Problem Formulation 
