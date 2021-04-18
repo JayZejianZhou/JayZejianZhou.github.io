@@ -12,10 +12,7 @@ toc_label: "LQR"
 comments: true
 ---
 
-MATLAB help document: 
-
-[`link`](https://ww2.mathworks.cn/help/reinforcement-learning/ug/custom-agents.html)  
-
+MATLAB help document: [`link`](https://ww2.mathworks.cn/help/reinforcement-learning/ug/custom-agents.html)  
 
 ## Problem Formulation 
 
