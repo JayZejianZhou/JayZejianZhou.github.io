@@ -46,7 +46,7 @@ We want the optimal control gain such that the evaluation function is minimized.
 addpath(fullfile(matlabroot,'examples','rl','main')); % add the template path
 edit LQRCustomAgent.m;	% get the template file
 ```
-   
+
 2. Save the template file to the work directory. Move remove the example files for safety.
 
 ```matlab
@@ -90,3 +90,4 @@ trainingOpts = rlTrainingOptions(...
 trainingStats = train(agent,env,trainingOpts);
 ```
 
+![https://photos.app.goo.gl/Vcsm8PuiLPdoFSiW7]()
