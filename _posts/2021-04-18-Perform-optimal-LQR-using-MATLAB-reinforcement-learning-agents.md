@@ -90,4 +90,4 @@ trainingOpts = rlTrainingOptions(...
 trainingStats = train(agent,env,trainingOpts);
 ```
 
-![https://photos.app.goo.gl/Vcsm8PuiLPdoFSiW7]()
+[aisr skin](http://drive.google.com/uc?export=view&id=sPBwFD9eSBbfXJDA6)
